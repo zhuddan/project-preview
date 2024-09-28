@@ -1,0 +1,762 @@
+[
+  {
+    "id": 1,
+    "en": "United States of America",
+    "cn": "美国",
+    "code": "+1",
+    "operators": [
+      {
+        "id": 1000,
+        "parentId": 1,
+        "description": "美国最大的电信公司之一，提供固定和移动通信服务。",
+        "name": "AT&T"
+      },
+      {
+        "id": 1001,
+        "parentId": 1,
+        "description": "全球领先的无线通信运营商。",
+        "name": "Verizon"
+      },
+      {
+        "id": 1002,
+        "parentId": 1,
+        "description": "美国主要的移动网络提供商之一，提供4G和5G服务。",
+        "name": "T-Mobile"
+      },
+      {
+        "id": 1003,
+        "parentId": 1,
+        "description": "专注于低成本的无线通信服务。",
+        "name": "Sprint"
+      },
+      {
+        "id": 1004,
+        "parentId": 1,
+        "description": "提供预付费无线通信服务的公司。",
+        "name": "Cricket Wireless"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "en": "China",
+    "cn": "中国",
+    "code": "+86",
+    "operators": [
+      {
+        "id": 1005,
+        "parentId": 2,
+        "description": "中国最大的电信运营商之一，提供移动、固网和互联网服务。",
+        "name": "中国移动"
+      },
+      {
+        "id": 1006,
+        "parentId": 2,
+        "description": "中国第二大电信公司，提供固网和移动通信服务。",
+        "name": "中国联通"
+      },
+      {
+        "id": 1007,
+        "parentId": 2,
+        "description": "中国领先的电信运营商，提供固网宽带和移动服务。",
+        "name": "中国电信"
+      },
+      {
+        "id": 1008,
+        "parentId": 2,
+        "description": "提供虚拟移动网络服务。",
+        "name": "阿里通信"
+      },
+      {
+        "id": 1009,
+        "parentId": 2,
+        "description": "中国的主要移动虚拟网络运营商之一。",
+        "name": "腾讯王卡"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "en": "United Kingdom",
+    "cn": "英国",
+    "code": "+44",
+    "operators": [
+      {
+        "id": 1010,
+        "parentId": 3,
+        "description": "英国最大的电信公司之一，提供固网和移动通信服务。",
+        "name": "BT"
+      },
+      {
+        "id": 1011,
+        "parentId": 3,
+        "description": "英国领先的无线网络运营商。",
+        "name": "EE"
+      },
+      {
+        "id": 1012,
+        "parentId": 3,
+        "description": "全球领先的电信运营商，提供移动服务。",
+        "name": "Vodafone"
+      },
+      {
+        "id": 1013,
+        "parentId": 3,
+        "description": "提供多种无线和固网服务。",
+        "name": "Three"
+      },
+      {
+        "id": 1014,
+        "parentId": 3,
+        "description": "提供固定宽带和移动通信服务。",
+        "name": "O2"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "en": "Canada",
+    "cn": "加拿大",
+    "code": "+1",
+    "operators": [
+      {
+        "id": 1015,
+        "parentId": 4,
+        "description": "加拿大领先的电信公司，提供无线通信服务。",
+        "name": "Rogers"
+      },
+      {
+        "id": 1016,
+        "parentId": 4,
+        "description": "加拿大电信业巨头，提供无线和固网服务。",
+        "name": "Bell"
+      },
+      {
+        "id": 1017,
+        "parentId": 4,
+        "description": "提供广泛的无线通信服务。",
+        "name": "Telus"
+      },
+      {
+        "id": 1018,
+        "parentId": 4,
+        "description": "主要提供廉价移动通信服务。",
+        "name": "Fido"
+      },
+      {
+        "id": 1019,
+        "parentId": 4,
+        "description": "加拿大的无线服务提供商，专注于低成本服务。",
+        "name": "Freedom Mobile"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "en": "Germany",
+    "cn": "德国",
+    "code": "+49",
+    "operators": [
+      {
+        "id": 1020,
+        "parentId": 5,
+        "description": "德国领先的电信公司，提供移动和宽带服务。",
+        "name": "Deutsche Telekom"
+      },
+      {
+        "id": 1021,
+        "parentId": 5,
+        "description": "德国最大的电信公司之一，提供各种移动服务。",
+        "name": "Vodafone Germany"
+      },
+      {
+        "id": 1022,
+        "parentId": 5,
+        "description": "德国的主要移动通信服务提供商。",
+        "name": "O2 Germany"
+      },
+      {
+        "id": 1023,
+        "parentId": 5,
+        "description": "德国的移动通信和互联网服务提供商。",
+        "name": "1&1"
+      },
+      {
+        "id": 1024,
+        "parentId": 5,
+        "description": "提供互联网和移动通信服务。",
+        "name": "Congstar"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "en": "India",
+    "cn": "印度",
+    "code": "+91",
+    "operators": [
+      {
+        "id": 1025,
+        "parentId": 6,
+        "description": "印度最大的电信公司之一，提供移动和互联网服务。",
+        "name": "Airtel"
+      },
+      {
+        "id": 1026,
+        "parentId": 6,
+        "description": "印度的主要电信运营商，提供4G和5G服务。",
+        "name": "Reliance Jio"
+      },
+      {
+        "id": 1027,
+        "parentId": 6,
+        "description": "印度的电信运营商，提供移动服务。",
+        "name": "Vodafone Idea"
+      },
+      {
+        "id": 1028,
+        "parentId": 6,
+        "description": "印度的领先通信服务提供商。",
+        "name": "BSNL"
+      },
+      {
+        "id": 1029,
+        "parentId": 6,
+        "description": "提供便宜的移动通信服务。",
+        "name": "MTNL"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "en": "Australia",
+    "cn": "澳大利亚",
+    "code": "+61",
+    "operators": [
+      {
+        "id": 1030,
+        "parentId": 7,
+        "description": "澳大利亚的领先电信公司，提供移动和固网服务。",
+        "name": "Telstra"
+      },
+      {
+        "id": 1031,
+        "parentId": 7,
+        "description": "提供移动和宽带服务的运营商。",
+        "name": "Optus"
+      },
+      {
+        "id": 1032,
+        "parentId": 7,
+        "description": "澳大利亚第三大移动通信公司。",
+        "name": "Vodafone Australia"
+      },
+      {
+        "id": 1033,
+        "parentId": 7,
+        "description": "提供预付费和虚拟网络服务。",
+        "name": "Amaysim"
+      },
+      {
+        "id": 1034,
+        "parentId": 7,
+        "description": "提供低成本的移动和宽带服务。",
+        "name": "TPG"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "en": "France",
+    "cn": "法国",
+    "code": "+33",
+    "operators": [
+      {
+        "id": 1035,
+        "parentId": 8,
+        "description": "法国的主要电信公司，提供移动和宽带服务。",
+        "name": "Orange"
+      },
+      {
+        "id": 1036,
+        "parentId": 8,
+        "description": "提供移动通信和互联网服务。",
+        "name": "SFR"
+      },
+      {
+        "id": 1037,
+        "parentId": 8,
+        "description": "法国的主要移动通信提供商之一。",
+        "name": "Bouygues Telecom"
+      },
+      {
+        "id": 1038,
+        "parentId": 8,
+        "description": "提供廉价的互联网和移动服务。",
+        "name": "Free Mobile"
+      },
+      {
+        "id": 1039,
+        "parentId": 8,
+        "description": "法国的移动虚拟网络运营商。",
+        "name": "NRJ Mobile"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "en": "Japan",
+    "cn": "日本",
+    "code": "+81",
+    "operators": [
+      {
+        "id": 1040,
+        "parentId": 9,
+        "description": "日本的领先移动通信公司，提供5G服务。",
+        "name": "NTT DoCoMo"
+      },
+      {
+        "id": 1041,
+        "parentId": 9,
+        "description": "日本第二大电信公司，提供移动和互联网服务。",
+        "name": "KDDI"
+      },
+      {
+        "id": 1042,
+        "parentId": 9,
+        "description": "提供廉价的移动通信服务。",
+        "name": "SoftBank"
+      },
+      {
+        "id": 1043,
+        "parentId": 9,
+        "description": "提供虚拟移动网络服务。",
+        "name": "Rakuten Mobile"
+      },
+      {
+        "id": 1044,
+        "parentId": 9,
+        "description": "日本的移动通信服务提供商。",
+        "name": "Y!Mobile"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "en": "Brazil",
+    "cn": "巴西",
+    "code": "+55",
+    "operators": [
+      {
+        "id": 1045,
+        "parentId": 10,
+        "description": "巴西领先的电信公司，提供移动和宽带服务。",
+        "name": "Vivo"
+      },
+      {
+        "id": 1046,
+        "parentId": 10,
+        "description": "提供多种无线通信服务。",
+        "name": "Claro"
+      },
+      {
+        "id": 1047,
+        "parentId": 10,
+        "description": "巴西的移动通信服务提供商。",
+        "name": "TIM"
+      },
+      {
+        "id": 1048,
+        "parentId": 10,
+        "description": "提供廉价的移动服务。",
+        "name": "Oi"
+      },
+      {
+        "id": 1049,
+        "parentId": 10,
+        "description": "巴西的虚拟移动网络运营商。",
+        "name": "Nextel"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "en": "South Korea",
+    "cn": "韩国",
+    "code": "+82",
+    "operators": [
+      {
+        "id": 1050,
+        "parentId": 11,
+        "description": "韩国最大的电信公司，提供移动和互联网服务。",
+        "name": "SK Telecom"
+      },
+      {
+        "id": 1051,
+        "parentId": 11,
+        "description": "提供全方位的通信服务。",
+        "name": "KT Corporation"
+      },
+      {
+        "id": 1052,
+        "parentId": 11,
+        "description": "提供移动和固网服务的电信公司。",
+        "name": "LG Uplus"
+      },
+      {
+        "id": 1053,
+        "parentId": 11,
+        "description": "韩国的虚拟移动网络运营商，提供廉价服务。",
+        "name": "CJ Hello"
+      },
+      {
+        "id": 1054,
+        "parentId": 11,
+        "description": "提供低成本的移动通信服务。",
+        "name": "Sejong Telecom"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "en": "Russia",
+    "cn": "俄罗斯",
+    "code": "+7",
+    "operators": [
+      {
+        "id": 1055,
+        "parentId": 12,
+        "description": "俄罗斯最大的电信公司之一，提供移动和互联网服务。",
+        "name": "MTS"
+      },
+      {
+        "id": 1056,
+        "parentId": 12,
+        "description": "俄罗斯的移动通信服务提供商。",
+        "name": "Beeline"
+      },
+      {
+        "id": 1057,
+        "parentId": 12,
+        "description": "俄罗斯的主要电信公司，提供4G和5G服务。",
+        "name": "MegaFon"
+      },
+      {
+        "id": 1058,
+        "parentId": 12,
+        "description": "俄罗斯的电信服务提供商，专注于固定和移动通信。",
+        "name": "Rostelecom"
+      },
+      {
+        "id": 1059,
+        "parentId": 12,
+        "description": "提供廉价移动通信服务的运营商。",
+        "name": "Tele2"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "en": "Mexico",
+    "cn": "墨西哥",
+    "code": "+52",
+    "operators": [
+      {
+        "id": 1060,
+        "parentId": 13,
+        "description": "墨西哥最大的电信公司，提供固定和移动通信服务。",
+        "name": "Telcel"
+      },
+      {
+        "id": 1061,
+        "parentId": 13,
+        "description": "提供廉价移动和互联网服务的公司。",
+        "name": "Movistar"
+      },
+      {
+        "id": 1062,
+        "parentId": 13,
+        "description": "墨西哥领先的移动服务提供商之一。",
+        "name": "AT&T Mexico"
+      },
+      {
+        "id": 1063,
+        "parentId": 13,
+        "description": "提供虚拟移动网络服务。",
+        "name": "Virgin Mobile Mexico"
+      },
+      {
+        "id": 1064,
+        "parentId": 13,
+        "description": "墨西哥的虚拟网络运营商，专注于移动通信。",
+        "name": "Weex"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "en": "South Africa",
+    "cn": "南非",
+    "code": "+27",
+    "operators": [
+      {
+        "id": 1065,
+        "parentId": 14,
+        "description": "南非的主要电信公司，提供移动和互联网服务。",
+        "name": "Vodacom"
+      },
+      {
+        "id": 1066,
+        "parentId": 14,
+        "description": "提供移动通信服务的领先运营商。",
+        "name": "MTN"
+      },
+      {
+        "id": 1067,
+        "parentId": 14,
+        "description": "南非的主要虚拟网络运营商。",
+        "name": "Cell C"
+      },
+      {
+        "id": 1068,
+        "parentId": 14,
+        "description": "南非的电信公司，提供低成本服务。",
+        "name": "Telkom"
+      },
+      {
+        "id": 1069,
+        "parentId": 14,
+        "description": "南非的虚拟网络提供商。",
+        "name": "Rain"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "en": "Italy",
+    "cn": "意大利",
+    "code": "+39",
+    "operators": [
+      {
+        "id": 1070,
+        "parentId": 15,
+        "description": "意大利的领先电信公司，提供多种通信服务。",
+        "name": "TIM"
+      },
+      {
+        "id": 1071,
+        "parentId": 15,
+        "description": "提供无线和互联网服务的全球电信公司。",
+        "name": "Vodafone Italy"
+      },
+      {
+        "id": 1072,
+        "parentId": 15,
+        "description": "提供固定宽带和移动通信服务。",
+        "name": "Wind Tre"
+      },
+      {
+        "id": 1073,
+        "parentId": 15,
+        "description": "意大利的虚拟网络运营商。",
+        "name": "Iliad Italy"
+      },
+      {
+        "id": 1074,
+        "parentId": 15,
+        "description": "提供互联网和移动服务的公司。",
+        "name": "Fastweb"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "en": "Spain",
+    "cn": "西班牙",
+    "code": "+34",
+    "operators": [
+      {
+        "id": 1075,
+        "parentId": 16,
+        "description": "西班牙的主要电信运营商，提供4G和5G服务。",
+        "name": "Movistar"
+      },
+      {
+        "id": 1076,
+        "parentId": 16,
+        "description": "西班牙的全球电信公司，提供无线通信服务。",
+        "name": "Vodafone Spain"
+      },
+      {
+        "id": 1077,
+        "parentId": 16,
+        "description": "提供移动和互联网服务的公司。",
+        "name": "Orange Spain"
+      },
+      {
+        "id": 1078,
+        "parentId": 16,
+        "description": "西班牙的虚拟移动网络运营商。",
+        "name": "Pepephone"
+      },
+      {
+        "id": 1079,
+        "parentId": 16,
+        "description": "提供廉价的移动和互联网服务。",
+        "name": "Yoigo"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "en": "Saudi Arabia",
+    "cn": "沙特阿拉伯",
+    "code": "+966",
+    "operators": [
+      {
+        "id": 1080,
+        "parentId": 17,
+        "description": "沙特阿拉伯的主要电信公司，提供多种通信服务。",
+        "name": "STC"
+      },
+      {
+        "id": 1081,
+        "parentId": 17,
+        "description": "提供移动通信和互联网服务。",
+        "name": "Mobily"
+      },
+      {
+        "id": 1082,
+        "parentId": 17,
+        "description": "沙特的主要移动服务提供商。",
+        "name": "Zain"
+      },
+      {
+        "id": 1083,
+        "parentId": 17,
+        "description": "提供低成本的通信服务。",
+        "name": "Virgin Mobile Saudi"
+      },
+      {
+        "id": 1084,
+        "parentId": 17,
+        "description": "沙特的虚拟网络运营商。",
+        "name": "Lebara"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "en": "Turkey",
+    "cn": "土耳其",
+    "code": "+90",
+    "operators": [
+      {
+        "id": 1085,
+        "parentId": 18,
+        "description": "土耳其的主要电信公司，提供移动和宽带服务。",
+        "name": "Turkcell"
+      },
+      {
+        "id": 1086,
+        "parentId": 18,
+        "description": "提供移动和互联网服务。",
+        "name": "Vodafone Turkey"
+      },
+      {
+        "id": 1087,
+        "parentId": 18,
+        "description": "土耳其领先的电信公司之一。",
+        "name": "Türk Telekom"
+      },
+      {
+        "id": 1088,
+        "parentId": 18,
+        "description": "土耳其的移动虚拟网络运营商。",
+        "name": "Bimcell"
+      },
+      {
+        "id": 1089,
+        "parentId": 18,
+        "description": "提供廉价通信服务的公司。",
+        "name": "Pttcell"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "en": "Argentina",
+    "cn": "阿根廷",
+    "code": "+54",
+    "operators": [
+      {
+        "id": 1090,
+        "parentId": 19,
+        "description": "阿根廷最大的电信公司之一，提供移动服务。",
+        "name": "Movistar Argentina"
+      },
+      {
+        "id": 1091,
+        "parentId": 19,
+        "description": "提供多种通信服务，包括移动和互联网。",
+        "name": "Claro Argentina"
+      },
+      {
+        "id": 1092,
+        "parentId": 19,
+        "description": "阿根廷的领先电信公司。",
+        "name": "Personal"
+      },
+      {
+        "id": 1093,
+        "parentId": 19,
+        "description": "提供预付费移动服务的公司。",
+        "name": "Tuenti"
+      },
+      {
+        "id": 1094,
+        "parentId": 19,
+        "description": "阿根廷的虚拟移动网络运营商。",
+        "name": "Virgin Mobile Argentina"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "en": "Indonesia",
+    "cn": "印度尼西亚",
+    "code": "+62",
+    "operators": [
+      {
+        "id": 1095,
+        "parentId": 20,
+        "description": "印度尼西亚最大的电信公司，提供移动和互联网服务。",
+        "name": "Telkomsel"
+      },
+      {
+        "id": 1096,
+        "parentId": 20,
+        "description": "提供廉价的移动通信服务。",
+        "name": "Indosat Ooredoo"
+      },
+      {
+        "id": 1097,
+        "parentId": 20,
+        "description": "印度尼西亚的主要电信公司之一。",
+        "name": "XL Axiata"
+      },
+      {
+        "id": 1098,
+        "parentId": 20,
+        "description": "印度尼西亚的虚拟网络运营商。",
+        "name": "Smartfren"
+      },
+      {
+        "id": 1099,
+        "parentId": 20,
+        "description": "提供多种通信服务。",
+        "name": "Tri Indonesia"
+      }
+    ]
+  }
+]

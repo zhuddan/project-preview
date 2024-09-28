@@ -1,1 +1,96 @@
-[{ "name": "China Mobile", "country": "China", "description": "世界上最大的移动通信运营商，拥有超过9亿用户。" }, { "name": "Vodafone", "country": "United Kingdom", "description": "跨国电信公司，在欧洲、非洲、亚洲和大洋洲都有业务。" }, { "name": "AT&T", "country": "United States", "description": "美国最大的电信公司之一，提供固定和移动通信服务。" }, { "name": "Verizon", "country": "United States", "description": "美国领先的无线通信提供商，也提供固定宽带服务。" }, { "name": "NTT DoCoMo", "country": "Japan", "description": "日本最大的移动运营商，在5G技术方面处于领先地位。" }, { "name": "Deutsche Telekom", "country": "Germany", "description": "欧洲最大的电信公司之一，拥有T-Mobile品牌。" }, { "name": "Telefónica", "country": "Spain", "description": "在欧洲和拉丁美洲拥有广泛业务的跨国电信公司。" }, { "name": "América Móvil", "country": "Mexico", "description": "拉丁美洲最大的移动运营商，同时在欧洲也有业务。" }, { "name": "SoftBank", "country": "Japan", "description": "日本主要的电信和互联网公司，在多个技术领域有投资。" }, { "name": "Orange", "country": "France", "description": "法国最大的电信公司，在非洲和中东也有广泛业务。" }, { "name": "Bharti Airtel", "country": "India", "description": "印度最大的电信服务提供商之一，在非洲也有业务。" }, { "name": "Telstra", "country": "Australia", "description": "澳大利亚最大的电信和媒体公司，提供广泛的通信服务。" }, { "name": "Telenor", "country": "Norway", "description": "北欧领先的电信公司，在亚洲也有大量业务。" }, { "name": "MTN Group", "country": "South Africa", "description": "非洲和中东领先的移动电信公司，业务遍及多个国家。" }, { "name": "Etisalat", "country": "United Arab Emirates", "description": "中东领先的电信运营商，在非洲和亚洲也有业务。" }, { "name": "Reliance Jio", "country": "India", "description": "印度发展最快的4G网络运营商，以低价策略著称。" }, { "name": "SK Telecom", "country": "South Korea", "description": "韩国最大的无线通信运营商，在5G领域处于领先地位。" }, { "name": "Ooredoo", "country": "Qatar", "description": "中东和北非地区的主要电信运营商，业务遍及多个国家。" }, { "name": "Telus", "country": "Canada", "description": "加拿大主要的电信公司之一，提供多种通信服务和医疗科技解决方案。" }]
+[
+  {
+    "country": "China",
+    "description": "世界上最大的移动通信运营商，拥有超过9亿用户。",
+    "name": "China Mobile"
+  },
+  {
+    "country": "United Kingdom",
+    "description": "跨国电信公司，在欧洲、非洲、亚洲和大洋洲都有业务。",
+    "name": "Vodafone"
+  },
+  {
+    "description": "美国最大的电信公司之一，提供固定和移动通信服务。",
+    "name": "AT&T"
+  },
+  {
+    "country": "United States",
+    "description": "美国领先的无线通信提供商，也提供固定宽带服务。",
+    "name": "Verizon"
+  },
+  {
+    "country": "Japan",
+    "description": "日本最大的移动运营商，在5G技术方面处于领先地位。",
+    "name": "NTT DoCoMo"
+  },
+  {
+    "country": "Germany",
+    "description": "欧洲最大的电信公司之一，拥有T-Mobile品牌。",
+    "name": "Deutsche Telekom"
+  },
+  {
+    "country": "Spain",
+    "description": "在欧洲和拉丁美洲拥有广泛业务的跨国电信公司。",
+    "name": "Telefónica"
+  },
+  {
+    "country": "Mexico",
+    "description": "拉丁美洲最大的移动运营商，同时在欧洲也有业务。",
+    "name": "América Móvil"
+  },
+  {
+    "country": "Japan",
+    "description": "日本主要的电信和互联网公司，在多个技术领域有投资。",
+    "name": "SoftBank"
+  },
+  {
+    "country": "France",
+    "description": "法国最大的电信公司，在非洲和中东也有广泛业务。",
+    "name": "Orange"
+  },
+  {
+    "country": "India",
+    "description": "印度最大的电信服务提供商之一，在非洲也有业务。",
+    "name": "Bharti Airtel"
+  },
+  {
+    "country": "Australia",
+    "description": "澳大利亚最大的电信和媒体公司，提供广泛的通信服务。",
+    "name": "Telstra"
+  },
+  {
+    "country": "Norway",
+    "description": "北欧领先的电信公司，在亚洲也有大量业务。",
+    "name": "Telenor"
+  },
+  {
+    "country": "South Africa",
+    "description": "非洲和中东领先的移动电信公司，业务遍及多个国家。",
+    "name": "MTN Group"
+  },
+  {
+    "country": "United Arab Emirates",
+    "description": "中东领先的电信运营商，在非洲和亚洲也有业务。",
+    "name": "Etisalat"
+  },
+  {
+    "country": "India",
+    "description": "印度发展最快的4G网络运营商，以低价策略著称。",
+    "name": "Reliance Jio"
+  },
+  {
+    "country": "South Korea",
+    "description": "韩国最大的无线通信运营商，在5G领域处于领先地位。",
+    "name": "SK Telecom"
+  },
+  {
+    "country": "Qatar",
+    "description": "中东和北非地区的主要电信运营商，业务遍及多个国家。",
+    "name": "Ooredoo"
+  },
+  {
+    "country": "Canada",
+    "description": "加拿大主要的电信公司之一，提供多种通信服务和医疗科技解决方案。",
+    "name": "Telus"
+  }
+]
